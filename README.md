@@ -1,6 +1,6 @@
 # JBalance
 
-An unofficial version app to check jio balance.
+An unofficial app to check jio balance.
 
 ## Features
 
