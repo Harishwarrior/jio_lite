@@ -16,9 +16,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         webView = findViewById(R.id.webView)
         webView.settings.javaScriptEnabled = true
         webView.settings.domStorageEnabled = true
+        webView.settings.displayZoomControls = false
+        webView.settings.setSupportZoom(false)
+        webView.settings.loadWithOverviewMode = true
+
         CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true)
 
         webView.webViewClient = object : WebViewClient() {
@@ -32,4 +37,5 @@ class MainActivity : AppCompatActivity() {
         webView.loadUrl("https://www.jio.com/dashboard")
     }
 }
+
 
