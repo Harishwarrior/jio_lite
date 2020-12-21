@@ -7,7 +7,6 @@ An unofficial app to check jio balance.
 - Lighter
 - Less resource consumption
 - Zero ads
-- Open source 
 
 ## TODO
 
