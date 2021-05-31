@@ -1,4 +1,4 @@
-package com.harish.jbalance
+package com.harish.jio_lite
 
 import org.junit.Test
 
