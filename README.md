@@ -1,4 +1,4 @@
-# JBalance
+# Jio lite
 
 An unofficial app to check jio balance.
 
@@ -10,7 +10,7 @@ An unofficial app to check jio balance.
 
 ## TODO
 
-- Persistent login 
+- [ ] Persistent login
 
 Feel free to fork and modify. 
 
